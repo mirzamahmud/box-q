@@ -15,12 +15,12 @@ class AppRoutes{
     initialLocation: AppPages.splashScreen,
     routes: [
       GoRoute(path: AppPages.splashScreen, builder: (context, state) => const SplashScreen()),
-      GoRoute(path: AppPages.splashScreen, builder: (context, state) => const SignInScreen()),
-      GoRoute(path: AppPages.splashScreen, builder: (context, state) => const SignUpScreen()),
-      GoRoute(path: AppPages.splashScreen, builder: (context, state) => const ForgotPasswordScreen()),
-      GoRoute(path: AppPages.splashScreen, builder: (context, state) => const OtpScreen()),
-      GoRoute(path: AppPages.splashScreen, builder: (context, state) => const ResetPasswordScreen()),
-      GoRoute(path: AppPages.splashScreen, builder: (context, state) => const ConfirmPasswordScreen()),
+      GoRoute(path: AppPages.signInScreen, builder: (context, state) => const SignInScreen()),
+      GoRoute(path: AppPages.signUpScreen, builder: (context, state) => const SignUpScreen()),
+      GoRoute(path: AppPages.forgotPasswordScreen, builder: (context, state) => const ForgotPasswordScreen()),
+      GoRoute(path: AppPages.otpScreen, builder: (context, state) => const OtpScreen()),
+      GoRoute(path: AppPages.resetPasswordScreen, builder: (context, state) => const ResetPasswordScreen()),
+      GoRoute(path: AppPages.confirmPasswordScreen, builder: (context, state) => const ConfirmPasswordScreen()),
       GoRoute(path: AppPages.homeScreen, builder: (context, state) => const HomeScreen()),
     ]
   );
