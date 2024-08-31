@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ConfirmPasswordScreen extends StatelessWidget {
-  const ConfirmPasswordScreen({super.key});
+class SignInScreen extends StatelessWidget {
+  const SignInScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,7 @@ class ConfirmPasswordScreen extends StatelessWidget {
       top: false,
       child: Scaffold(
         body: Center(
-          child: Text("Confirm Password Screen"),
+          child: Text("Sign In Screen")
         ),
       ),
     );
