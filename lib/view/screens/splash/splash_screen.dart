@@ -1,6 +1,5 @@
 import 'dart:async';
-
-import 'package:box_q/view/screens/sign_in/sign_in_screen.dart';
+import 'package:box_q/view/screens/auth/sign_in/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
